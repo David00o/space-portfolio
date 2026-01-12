@@ -25,8 +25,10 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">David</div>
-        </Link>
+          <div className="font-bold ml-[10px] text-gray-300">
+            DAVID
+          </div>
+        
 
         {/* Web Navbar */}
         <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
