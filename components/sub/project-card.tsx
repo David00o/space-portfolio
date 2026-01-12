@@ -8,11 +8,12 @@ interface Props {
   link: string;
 }
 
-const ProjectCard = ({ src, title, description, link }: Props) => {
+// ✅ I added "export" here so the other files can find it
+export const ProjectCard = ({ src, title, description, link }: Props) => {
   return (
-    <a 
-      href={link} 
-      target="_blank" 
+    <a
+      href={link}
+      target="_blank"
       rel="noreferrer"
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer block hover:scale-105 transition-transform duration-200"
     >
@@ -34,5 +35,3 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
     </a>
   );
 };
-
-export default ProjectCard;
