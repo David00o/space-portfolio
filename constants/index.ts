@@ -98,12 +98,12 @@ export const SOCIALS = [
   {
     name: "WhatsApp Me",
     icon: FaFacebook, 
-    link: "https://wa.me/919999999999", // ⚠️ CHANGE THIS TO YOUR NUMBER (e.g. 919876543210)
+    link: "https://wa.me/917416022950", // ⚠️ CHANGE THIS TO YOUR NUMBER (e.g. 919876543210)
   },
   {
     name: "PAY ADVANCE",
     icon: RxDiscordLogo,
-    link: "YOUR_RAZORPAY_LINK_HERE", // ⚠️ PASTE YOUR RAZORPAY LINK HERE
+    link: "https://razorpay.me/@chodipillidavid", // ⚠️ PASTE YOUR RAZORPAY LINK HERE
   },
 ] as const;
 
