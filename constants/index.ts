@@ -88,21 +88,22 @@ export const SKILL_DATA = [
   },
 ] as const;
 
+// --- DAVID'S BUSINESS LINKS ---
 export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com", // Put your IG link here
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "WhatsApp Me",
+    icon: FaFacebook, 
+    link: "https://wa.me/919999999999", // ⚠️ CHANGE THIS TO YOUR NUMBER (e.g. 919876543210)
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "PAY ADVANCE",
+    icon: RxDiscordLogo,
+    link: "YOUR_RAZORPAY_LINK_HERE", // ⚠️ PASTE YOUR RAZORPAY LINK HERE
   },
 ] as const;
 
@@ -239,7 +240,6 @@ export const FULLSTACK_SKILL = [
     width: 70,
     height: 70,
   },
-
   {
     skill_name: "Figma",
     image: "figma.png",
@@ -257,27 +257,28 @@ export const OTHER_SKILL = [
   },
 ] as const;
 
+// --- DAVID'S SERVICES & PRICES ---
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "3D Instagram Bio (₹499)",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Replace your boring Linktree with a glowing, interactive 3D profile. Works on all phones. Perfect for Influencers & Students.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "YOUR_RAZORPAY_LINK_HERE", // ⚠️ PASTE YOUR ₹499 PAYMENT LINK HERE
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Product Launch Page (₹2,999)",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Showcase your product in 3D space. Users can rotate and zoom. High conversion for dropshippers and brands.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "YOUR_RAZORPAY_LINK_HERE", // ⚠️ PASTE YOUR ₹2999 PAYMENT LINK HERE
   },
   {
-    title: "Space Themed Website",
+    title: "Full 3D Website (₹5,000+)",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "A complete multi-page agency website with Dark Mode, Animations, and Premium Typography. The ultimate upgrade.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://wa.me/919999999999", // ⚠️ PASTE YOUR WHATSAPP LINK HERE
   },
 ] as const;
 
@@ -326,19 +327,19 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Hire David",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://wa.me/919999999999", // ⚠️ CHANGE TO YOUR WHATSAPP
       },
       {
-        name: "Learning about me",
+        name: "My Work",
         icon: null,
-        link: "https://example.com",
+        link: "#projects",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:david@example.com", // ⚠️ CHANGE TO YOUR EMAIL
       },
     ],
   },
@@ -354,7 +355,7 @@ export const NAV_LINKS = [
     link: "#skills",
   },
   {
-    title: "Projects",
+    title: "Services", // Changed from "Projects" to "Services"
     link: "#projects",
   },
 ] as const;
